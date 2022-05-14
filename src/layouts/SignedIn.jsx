@@ -14,10 +14,10 @@ export default function SignedIn({signOut}) {
 
           <Dropdown text="Welcome, Admin" pointing="top right">
             <Dropdown.Menu>
-              <Dropdown.Item text="Bilgilerim" icon="info" />
+              <Dropdown.Item text="Admin" icon="info" />
               <Dropdown.Item
                 onClick={signOut}
-                text="Çıkış Yap"
+                text="Sign out"
                 icon="sign-out"
               />
             </Dropdown.Menu>
